@@ -1,0 +1,101 @@
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"error","message":"Error: "}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"date":"Mon Apr 11 2022 21:07:25 GMT+0100 (British Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: axios(...).get is not a function\nTypeError: axios(...).get is not a function\n    at Object.<anonymous> (C:\\assignment\\APIforEthereum\\source\\app.js:25:4)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","os":{"loadavg":[0,0,0],"uptime":526840},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\assignment\\APIforEthereum\\source\\app.js"],"cwd":"C:\\assignment\\APIforEthereum","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":89166,"external":1604285,"heapTotal":16859136,"heapUsed":9170448,"rss":37396480},"pid":2108,"uid":null,"version":"v14.17.6"},"stack":"TypeError: axios(...).get is not a function\n    at Object.<anonymous> (C:\\assignment\\APIforEthereum\\source\\app.js:25:4)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":4,"file":"C:\\assignment\\APIforEthereum\\source\\app.js","function":null,"line":25,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"date":"Mon Apr 11 2022 21:43:16 GMT+0100 (British Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read property 'content-type' of undefined\nTypeError: Cannot read property 'content-type' of undefined\n    at ServerResponse.getHeader (_http_outgoing.js:582:24)\n    at ServerResponse.res.get (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:794:15)\n    at ServerResponse.send (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:144:17)\n    at Server.<anonymous> (C:\\assignment\\APIforEthereum\\source\\app.js:9:9)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitListeningNT (net.js:1354:10)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","os":{"loadavg":[0,0,0],"uptime":528990},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\assignment\\APIforEthereum\\source\\app.js"],"cwd":"C:\\assignment\\APIforEthereum","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":80974,"external":1712417,"heapTotal":16859136,"heapUsed":8966048,"rss":36470784},"pid":8148,"uid":null,"version":"v14.17.6"},"stack":"TypeError: Cannot read property 'content-type' of undefined\n    at ServerResponse.getHeader (_http_outgoing.js:582:24)\n    at ServerResponse.res.get (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:794:15)\n    at ServerResponse.send (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:144:17)\n    at Server.<anonymous> (C:\\assignment\\APIforEthereum\\source\\app.js:9:9)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitListeningNT (net.js:1354:10)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":24,"file":"_http_outgoing.js","function":"ServerResponse.getHeader","line":582,"method":"getHeader","native":false},{"column":15,"file":"C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js","function":"ServerResponse.res.get","line":794,"method":"get","native":false},{"column":17,"file":"C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":144,"method":"send","native":false},{"column":9,"file":"C:\\assignment\\APIforEthereum\\source\\app.js","function":null,"line":9,"method":null,"native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":10,"file":"net.js","function":"emitListeningNT","line":1354,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+{"date":"Mon Apr 11 2022 21:44:37 GMT+0100 (British Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read property 'content-type' of undefined\nTypeError: Cannot read property 'content-type' of undefined\n    at ServerResponse.getHeader (_http_outgoing.js:582:24)\n    at ServerResponse.res.get (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:794:15)\n    at ServerResponse.send (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:144:17)\n    at Server.<anonymous> (C:\\assignment\\APIforEthereum\\source\\app.js:12:9)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitListeningNT (net.js:1354:10)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","os":{"loadavg":[0,0,0],"uptime":529072},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\assignment\\APIforEthereum\\source\\app.js"],"cwd":"C:\\assignment\\APIforEthereum","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":89166,"external":1720609,"heapTotal":16596992,"heapUsed":9063264,"rss":36519936},"pid":16228,"uid":null,"version":"v14.17.6"},"stack":"TypeError: Cannot read property 'content-type' of undefined\n    at ServerResponse.getHeader (_http_outgoing.js:582:24)\n    at ServerResponse.res.get (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:794:15)\n    at ServerResponse.send (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:144:17)\n    at Server.<anonymous> (C:\\assignment\\APIforEthereum\\source\\app.js:12:9)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitListeningNT (net.js:1354:10)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":24,"file":"_http_outgoing.js","function":"ServerResponse.getHeader","line":582,"method":"getHeader","native":false},{"column":15,"file":"C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js","function":"ServerResponse.res.get","line":794,"method":"get","native":false},{"column":17,"file":"C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":144,"method":"send","native":false},{"column":9,"file":"C:\\assignment\\APIforEthereum\\source\\app.js","function":null,"line":12,"method":null,"native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":10,"file":"net.js","function":"emitListeningNT","line":1354,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"success"}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"success"}
+{"level":"info","message":"success"}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Error url is not defined","stack":"ReferenceError: url is not defined\n    at C:\\assignment\\APIforEthereum\\source\\app.js:15:10\n    at Layer.handle [as handle_request] (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\index.js:341:12)\n    at next (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\assignment\\APIforEthereum\\node_modules\\express\\node_modules\\body-parser\\lib\\read.js:130:5\n    at invokeCallback (C:\\assignment\\APIforEthereum\\node_modules\\express\\node_modules\\raw-body\\index.js:224:16)"}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"info","message":"Error Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:561:11)\n    at ServerResponse.header (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\assignment\\APIforEthereum\\node_modules\\express\\lib\\response.js:170:12)\n    at C:\\assignment\\APIforEthereum\\source\\app.js:40:9\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
+{"level":"info","message":"Express.js listening on port 3000."}
