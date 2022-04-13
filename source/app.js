@@ -1,4 +1,5 @@
 const express = require("express");
+var http = require("http");
 const axios = require("axios");
 const logger = require("./../source/logger");
 const app = express();
@@ -10,11 +11,13 @@ app.post("/", async (req, res) => {
   var multiaddressarray = multiaddress.split(",");
   const addressCount = multiaddressarray.length;
   const apikey = process.env.API_KEY;
-  const ethUrl = `https://api-goerli.etherscan.io/api?module=account&action=balancemulti&address=${multiaddress}&tag=latest&apikey=${apikey}`;
+  const baseUrl = process.env.BASE_URL;
+  const ethUrl = `${baseUrl}api?module=account&action=balancemulti&address=${multiaddress}&tag=latest&apikey=${apikey}`;
   try {
     if (addressCount <= 100) {
       try{
       var finalResult = await axios.get(ethUrl).then((result) => {
+        
         var sumall = result.data.result
           .map((item) => item.balance)
           .reduce((prev, curr) => prev + curr, 0);
