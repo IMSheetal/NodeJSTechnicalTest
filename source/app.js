@@ -1,5 +1,4 @@
 const express = require("express");
-var http = require("http");
 const axios = require("axios");
 const logger = require("./../source/logger");
 const app = express();
