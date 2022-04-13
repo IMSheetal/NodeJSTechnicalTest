@@ -15,8 +15,8 @@ app.post("/", async (req, res) => {
   try {
     if (addressCount <= 100) {
       try{
-      var finalResult = await axios.get(ethUrl).then((result) => {
-        
+      var finalResult = await axios.get(ethUrl).then((result) => { 
+        try{       
         var sumall = result.data.result
           .map((item) => item.balance)
           .reduce((prev, curr) => prev + curr, 0);
@@ -32,6 +32,10 @@ app.post("/", async (req, res) => {
         };
         logger.info(res.status);
         return finalResult;
+      }catch(e){
+        logger.error( result.data);
+        res.send( result.data);
+      }
       });
       res.send(finalResult);
       logger.info(res.status);
