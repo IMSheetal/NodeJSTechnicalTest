@@ -8,38 +8,42 @@ require("dotenv").config();
 const port = process.env.port || 3000;
 app.post("/", async (req, res) => {
   const multiaddress = req.body.addresses;
+  var multiaddressarray = multiaddress.split(",");
+  const addressCount = multiaddressarray.length;
   const apikey = process.env.API_KEY;
   const ethUrl = `https://api-goerli.etherscan.io/api?module=account&action=balancemulti&address=${multiaddress}&tag=latest&apikey=${apikey}`;
   try {
-    var finalResult = await axios
-    .get(ethUrl)
-    .then((result) => {
-        // console.log(result.data);
-        const addressCount = multiaddress.length;
-        if (addressCount <= 100) {
-          var sumall = result.data.result
-            .map((item) => item.balance)
-            .reduce((prev, curr) => prev + curr, 0);
-          const resultdata = result.data.result.map((item) => {
-            var container = {};
-            container["address"] = item.account;
-            container["balance"] = item.balance;
-            return container;
-          });
-          const finalResult = {
-            addresses: resultdata,
-            totalBalance: sumall,
-          };
-          return finalResult;
-        }
+    if (addressCount <= 100) {
+      try{
+      var finalResult = await axios.get(ethUrl).then((result) => {
+        var sumall = result.data.result
+          .map((item) => item.balance)
+          .reduce((prev, curr) => prev + curr, 0);
+        const resultdata = result.data.result.map((item) => {
+          var container = {};
+          container["address"] = item.account;
+          container["balance"] = item.balance;
+          return container;
+        });
+        const finalResult = {
+          addresses: resultdata,
+          totalBalance: sumall,
+        };
         logger.info(res.status);
         return finalResult;
-        // res.send(result.data)
-    });
-    res.send(finalResult);
-    logger.info("success");
+      });
+      res.send(finalResult);
+      logger.info(res.status);
+    }catch(e){
+      res.send(e);
+      logger.error("Error", e);
+    }
+    } else {
+      res.send("Addresses should not be more than 100");
+    }
   } catch (e) {
-    logger.info("Error",e);
+    logger.info("Error", e);
+    res.send(e);
   }
 });
 
